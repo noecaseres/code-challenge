@@ -1,70 +1,68 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Code Challenge</h1>
+<hr><p>This project consumes information from a database, then shows them up in a table where the user can filter by fileName.</p><h2>Technologies Used</h2>
+<hr><ul>
+<li>HTML</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>React</li>
+</ul><ul>
+<li>React Bootstrap</li>
+</ul><ul>
+<li>React Router</li>
+</ul><ul>
+<li>Jest and Testing Library for testing.</li>
+</ul><h2>Setup</h2>
+<hr><p>Dependencies: Babel, Jest, Testing Library, React Bootstrap, React Router Dom, React Scripts.</p><h5>Steps</h5><ul>
+<li>To run this project, install it locally using npm:</li>
+</ul><ul>
+<li>
+<ol>
+<li>cd ../code-challenge</li>
+</ol>
+</li>
+</ul><ul>
+<li>
+<ol start="2">
+<li>npm install</li>
+</ol>
+</li>
+</ul><ul>
+<li>
+<ol start="3">
+<li>npm i react-bootstrap bootstrap</li>
+</ol>
+</li>
+</ul><ul>
+<li>
+<ol start="4">
+<li>npm i react-router-dom</li>
+</ol>
+</li>
+</ul><ul>
+<li>
+<ol start="5">
+<li>npm i query-string</li>
+</ol>
+</li>
+</ul><ul>
+<li>Then for testing, install:</li>
+</ul><ul>
+<li>
+<ol>
+<li>npm install --save-dev @testing-library/react @testing-library/jest-dom</li>
+</ol>
+</li>
+</ul><ul>
+<li>
+<ol start="2">
+<li>npm install --save-dev jest jest-environment-jsdom</li>
+</ol>
+</li>
+</ul><ul>
+<li>
+<ol start="3">
+<li>npm i babel-jest @babel-preset-env @babel-preset-react</li>
+</ol>
+</li>
+</ul>
