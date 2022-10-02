@@ -46,6 +46,12 @@
 </ol>
 </li>
 </ul><ul>
+<li>
+<ol start="6">
+<li>npm start</li>
+</ol>
+</li>
+</ul><ul>
 <li>Then for testing, install:</li>
 </ul><ul>
 <li>
