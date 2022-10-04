@@ -68,7 +68,7 @@
 </ul><ul>
 <li>
 <ol start="3">
-<li>npm i babel-jest @babel-preset-env @babel-preset-react</li>
+<li>npm i babel-jest @babel/preset-env @babel/preset-react</li>
 </ol>
 </li>
 </ul>
